@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Buscador de usuarios de GitHub | Ejercicio try / catch / finally</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<div class="matrix-container">
+  <div class="matrix-pattern">
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+  </div>
+  <div class="matrix-pattern">
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+  </div>
+  <div class="matrix-pattern">
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+  </div>
+  <div class="matrix-pattern">
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+  </div>
+  <div class="matrix-pattern">
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+    <div class="matrix-column"></div>
+  </div>
+</div>
+
+  <div class="wrapper">
+
+    <div class="header-note"><span>Ejercicio · try / catch / finally · fetch API</span></div>
+
+
+
+    <div class="card">
+
+      <div class="card-title"><span class="icon">🔍</span> Buscador de usuarios de GitHub</div>
+
+      <div class="card-subtitle">Ejercicio de try / catch / finally con fetch</div>
+
+
+
+      <div class="search-row">
+
+        <input id="inputUsuario" type="text" placeholder="Ej: leonmiguel2622, octocat, torvalds" autocomplete="off" spellcheck="false">
+
+        <button id="btnBuscar"><span class="text">Buscar</span></button>
+
+      </div>
+
+
+
+      <div id="resultado">
+
+        <div class="hint">Escribe un usuario de GitHub y presiona <strong>Buscar</strong>. Prueba con <code>leonmiguel2622</code> (válido) o <code>@leonmiguel2622</code> (con @ para forzar error 404).</div>
+
+      </div>
+
+
+
+      <div class="log-wrapper">
+
+        <div class="log-label">Consola de ejecución (log)</div>
+
+        <div id="log">> Listo. Ingresa un usuario y haz clic en Buscar.
+
+> El bloque <em>try</em> hará el fetch, <em>catch</em> atrapará errores (404, red, validación de @) y <em>finally</em> siempre se ejecutará.</div>
+
+      </div>
+
+
+
+      <div class="extra-actions">
+
+        <button onclick="probar('leonmiguel2622')">Probar: leonmiguel2622</button>
+
+        <button onclick="probar('@leonmiguel2622')">Probar: @leonmiguel2622 (error)</button>
+
+        <button onclick="probar('usuarioque_no_existe_12345')">Probar: no existe</button>
+
+        <button onclick="probar('octocat')">Probar: octocat</button>
+
+        <button onclick="limpiarTodo()">Limpiar</button>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="explicacion">
+
+      <h4>📘 ¿Cómo funciona el try / catch / finally aquí?</h4>
+
+      <ul>
+
+        <li><code>try</code>: valida el input y hace <code>await fetch(`https://api.github.com/users/${username}`)</code>. Si <code>response.ok</code> es false, lanza <code>throw new Error</code>.</li>
+
+        <li><code>catch</code>: captura errores de validación (vacío, contiene <code>@</code>), errores HTTP 404 y fallos de red. Muestra mensaje rojo sin romper la app.</li>
+
+        <li><code>finally</code>: siempre ejecuta <code>log("Búsqueda finalizada (bloque finally ejecutado).")</code> y restaura el botón, haya éxito o error.</li>
+
+      </ul>
+
+      <p style="margin-top:0.6rem"><strong>Snippet exigido por el ejercicio:</strong></p>
+
+      <pre style="background:#0f141f;border:1px solid #1f2937;border-radius:8px;padding:0.7rem;overflow:auto;margin-top:0.4rem;font-size:0.78rem;color:#cbd5e1"><code>async function buscarUsuario(username) {
+
+  log(`Iniciando fetch para "${username}"...`);
+
+  const respuesta = await fetch(`https://api.github.com/users/${username}`);
+
+  // ... try / catch / finally
+
+}</code></pre>
+
+    </div>
+
+
+
+    <footer>Miguel León · Evidencias Try/Catch · GitHub API &nbsp;·&nbsp; Hecho con try/catch/finally</footer>
+
+  </div>
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
+
