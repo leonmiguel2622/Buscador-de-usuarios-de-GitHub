@@ -9,7 +9,7 @@
 ## Estructura organizada (requerida)
 
 ```
-uscador_de_usuarios_de_GitHub/
+Buscador-de-usuarios-de-GitHub/
 ├── index.html          # HTML + Matrix (enlace a css/style.css y js/script.js)
 ├── css/
 │   └── style.css       # Estilos completos + Matrix morado — css/style.css:1
